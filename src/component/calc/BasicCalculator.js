@@ -2,7 +2,6 @@ import React from 'react';
 import './basic.css';
 
 class Calculator extends React.Component {
-
     calculator1 = () => {
         return (
             <>
