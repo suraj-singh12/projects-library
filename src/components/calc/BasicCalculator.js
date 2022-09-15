@@ -23,25 +23,25 @@ class Calculator extends React.Component {
                     {/* <!-- buttons panel --> */}
                     <div className="calculator-button">
                         {/* <!-- top panel button --> */}
-                        <button className="button clear-btn grey-dark" onClick={() => { this.eraseAll() }}>AC</button>
-                        <button className="button rem-digit-btn grey-dark" onClick={() => { this.eraseLast() }}>DEL</button>
-                        <button value="/" className="button oper-btn grey-dark" onClick={(e) => { this.insertOperator(e) }}>/</button>
+                        <button className="calc-button clear-btn grey-dark" onClick={() => { this.eraseAll() }}>AC</button>
+                        <button className="calc-button rem-digit-btn grey-dark" onClick={() => { this.eraseLast() }}>DEL</button>
+                        <button value="/" className="calc-button oper-btn grey-dark" onClick={(e) => { this.insertOperator(e) }}>/</button>
 
-                        <button value="*" className="button oper-btn orange" onClick={(e) => { this.insertOperator(e) }}>x</button>
-                        <button value="7" className="button num-btn" onClick={(e) => { this.insertDigit(e) }}>7</button>
-                        <button value="8" className="button num-btn" onClick={(e) => { this.insertDigit(e) }}>8</button>
-                        <button value="9" className="button num-btn" onClick={(e) => { this.insertDigit(e) }}>9</button>
-                        <button value="-" className="button oper-btn orange" onClick={(e) => { this.insertOperator(e) }}>-</button>
-                        <button value="4" className="button num-btn" onClick={(e) => { this.insertDigit(e) }}>4</button>
-                        <button value="5" className="button num-btn" onClick={(e) => { this.insertDigit(e) }}>5</button>
-                        <button value="6" className="button num-btn" onClick={(e) => { this.insertDigit(e) }}>6</button>
-                        <button value="+" className="button oper-btn orange" onClick={(e) => { this.insertOperator(e) }}>+</button>
-                        <button value="1" className="button num-btn" onClick={(e) => { this.insertDigit(e) }}>1</button>
-                        <button value="2" className="button num-btn" onClick={(e) => { this.insertDigit(e) }}>2</button>
-                        <button value="3" className="button num-btn" onClick={(e) => { this.insertDigit(e) }}>3</button>
-                        <button className="button calc-btn orange" onClick={() => { this.calculateResult() }}>=</button>
-                        <button value="0" className="button num-btn" onClick={(e) => { this.insertDigit(e) }}>0</button>
-                        <button className="button decimal-btn" onClick={() => { this.insertDecimal() }}>.</button>
+                        <button value="*" className="calc-button oper-btn orange" onClick={(e) => { this.insertOperator(e) }}>x</button>
+                        <button value="7" className="calc-button num-btn" onClick={(e) => { this.insertDigit(e) }}>7</button>
+                        <button value="8" className="calc-button num-btn" onClick={(e) => { this.insertDigit(e) }}>8</button>
+                        <button value="9" className="calc-button num-btn" onClick={(e) => { this.insertDigit(e) }}>9</button>
+                        <button value="-" className="calc-button oper-btn orange" onClick={(e) => { this.insertOperator(e) }}>-</button>
+                        <button value="4" className="calc-button num-btn" onClick={(e) => { this.insertDigit(e) }}>4</button>
+                        <button value="5" className="calc-button num-btn" onClick={(e) => { this.insertDigit(e) }}>5</button>
+                        <button value="6" className="calc-button num-btn" onClick={(e) => { this.insertDigit(e) }}>6</button>
+                        <button value="+" className="calc-button oper-btn orange" onClick={(e) => { this.insertOperator(e) }}>+</button>
+                        <button value="1" className="calc-button num-btn" onClick={(e) => { this.insertDigit(e) }}>1</button>
+                        <button value="2" className="calc-button num-btn" onClick={(e) => { this.insertDigit(e) }}>2</button>
+                        <button value="3" className="calc-button num-btn" onClick={(e) => { this.insertDigit(e) }}>3</button>
+                        <button className="calc-button calc-btn orange" onClick={() => { this.calculateResult() }}>=</button>
+                        <button value="0" className="calc-button num-btn" onClick={(e) => { this.insertDigit(e) }}>0</button>
+                        <button className="calc-button decimal-btn" onClick={() => { this.insertDecimal() }}>.</button>
                     </div>
                 </form>
                 <div className="copyright">

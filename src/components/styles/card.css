@@ -1,0 +1,43 @@
+.card {
+    width: 25% !important;
+    height: auto;
+    display: inline-block !important;
+    text-align: center;
+    margin-right: 8%;
+    padding: 2%;
+}
+
+.top-img {
+    height: 250px;
+}
+
+.card img {
+    height: inherit;
+    width: 100%;
+    background-color: #d2d2d2;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-text,
+.card-title,
+.card-body p {
+    text-align: left;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.old-price {
+    color: grey;
+    font-size: 1.2rem;
+    text-decoration: line-through;
+    margin-left: 5%;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
