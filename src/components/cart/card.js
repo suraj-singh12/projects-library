@@ -16,7 +16,7 @@ const Cards = ({item, handleClick} ) => {
                     <span className="card-text price">Price: Rs. {itemPrice}</span>
                     <span className="card-text old-price">Rs. {itemOldPrice}</span>
                 </p>
-                <button type="button" className="btn btn-primary btn-lg" onClick={() => {handleClick(item)}}>Add to Cart</button>
+                <button type="button" className="btn btn-special btn-lg" onClick={() => {handleClick(item)}}>Add to Cart</button>
             </div>
         </div>
     );

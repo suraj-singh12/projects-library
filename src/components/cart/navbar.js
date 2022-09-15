@@ -4,7 +4,7 @@ import '../styles/navbar.css';
 const Navbar = ({ setShow, size }) => {
     return (
         <nav>
-            <div className="container-fluid bg-primary my-cart-head">
+            <div style={{backgroundColor: 'lightblue'}} className="container-fluid my-cart-head">
                 <h3 className="my_shop" onClick={() => setShow(true)}>
                     My Shopping
                 </h3>

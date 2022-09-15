@@ -3,7 +3,7 @@ const list = [
         "id": 1,
         "itemName": "Cotton Shirt",
         "itemImg": "cotton",
-        "itemDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "itemDescription": "Always comfortable, and superb to wear in summers.",
         "itemPrice": 250,
         "itemOldPrice": 300,
         "count": 1
@@ -12,7 +12,7 @@ const list = [
         "id": 2, 
         "itemName": "White TShirt",
         "itemImg": "white",
-        "itemDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "itemDescription": "Awesome in daily wear, always can be a good preference.",
         "itemPrice": 550,
         "itemOldPrice": 600,
         "count": 1
@@ -21,7 +21,7 @@ const list = [
         "id": 3,
         "itemName": "Full Sleeves Tshirt",
         "itemImg": "full",
-        "itemDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "itemDescription": "One of the good pieces in this catagory, fits best.",
         "itemPrice": 200,
         "itemOldPrice": 250,
         "count": 1

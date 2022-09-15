@@ -8,7 +8,11 @@
   display: inline-block;
   margin: auto;
 }
-
+.my_shop:hover {
+  cursor: pointer;
+  font-size: 2rem;
+  transition: all 0.7s;
+}
 .cart {
   font-size: 1.5rem;
   color: white;
