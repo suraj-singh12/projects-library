@@ -64,7 +64,8 @@ body {
 .projects:hover {
     transform: scale(1.1);
 }
-.projects>img {
+
+.projects img {
     max-width: 100%;
     height: auto;
     box-shadow: 0 8px 8px -4px lightblue;
@@ -75,6 +76,15 @@ body {
         0 22.3px 17.9px rgba(0, 0, 0, 0.072),
         0 41.8px 33.4px rgba(0, 0, 0, 0.086),
         0 100px 80px rgba(0, 0, 0, 0.12);
+
+    box-shadow: 
+        0 2.8px 2.2px rgb(213 255 175), 
+        0 6.7px 5.3px rgb(43 107 173), 
+        0 12.5px 10px rgb(0 0 0 / 6%), 
+        0 22.3px 17.9px rgb(0 0 0 / 7%), 
+        0 41.8px 33.4px rgb(0 0 0 / 9%), 
+        0 100px 80px rgb(0 0 0 / 12%);
+        
     cursor: pointer;
 }
 

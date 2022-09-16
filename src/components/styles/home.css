@@ -45,3 +45,17 @@ section {
   background-color: skyblue;
   outline: none;
 }
+
+.copyright3 {
+  margin-top: 10%;
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  display: inline-block;
+}
+
+.copyright3>a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
