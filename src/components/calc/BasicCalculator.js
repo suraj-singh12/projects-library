@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './basic.css';
 
 class Calculator extends React.Component {
@@ -7,6 +8,9 @@ class Calculator extends React.Component {
             <>
                 <div id="calculator-on-off" onClick={this.launchCalculator}>
                     <div>Click/Tap anywhere to Turn ON the calculator!</div>
+                </div>
+                <div className="landing-page">
+                    <Link to="/">Go Home</Link>
                 </div>
                 {/* <!-- create a form (for calculator) --> */}
                 <form className="calculator" onSubmit={(event) => { event.preventDefault() }}>
@@ -240,11 +244,12 @@ class Calculator extends React.Component {
     // js part ends here ------------------------------------------------------------ 
 
     render() {
-    return (
-        <div id="calc1">
-            {this.calculator1()}
-        </div>
-    )};
+        return (
+            <div id="calc1">
+                {this.calculator1()}
+            </div>
+        )
+    };
 
     componentDidMount() {
         // after the component is mounted, then we update these variables, so they are valid, and not undefined
