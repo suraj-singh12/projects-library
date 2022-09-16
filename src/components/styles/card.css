@@ -115,6 +115,29 @@
   outline: 0;
 }
 
+@media screen and (max-width: 1220px) {
+  .card {
+    width: 35% !important;
+    /* margin-top: 5%; */
+  }
+  .card:nth-child(n+3) {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 45% !important;
+    /* margin-top: 5%; */
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    width: 55% !important;
+    /* margin-top: 5%; */
+  }
+}
 @media (min-width: 768px) {
   .btn-special {
     padding: 0 40px;
