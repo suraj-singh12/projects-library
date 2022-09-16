@@ -1,8 +1,8 @@
 
 const images = {
-    "cotton": require('./cotton-tshirt.png'),
-    "full": require('./full-sleeve-tshirt.png'),
-    "white": require('./white-tshirt.png'),
+    "cotton": require('./cotton-tshirt.jpg'),
+    "full": require('./full-sleeve-tshirt.jpg'),
+    "white": require('./white-tshirt.jpg'),
     "calculator": require('./calculator-img.jpg'),
     "cart": require('./cart-img.jpg')
 };
